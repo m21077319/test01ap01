@@ -3,6 +3,7 @@ applications:
   memory: 512M
   instances: 1
   domain: mybluemix.net
-  name: test01ap01
-  host: test01ap01
+  name: test01ap001
+  host: test01ap001
   disk_quota: 1024M
+  buildpack:https://github.com/cloudfoundry/java-buildpack.git#v3.17
