@@ -6,4 +6,5 @@ applications:
   name: test01app01
   host: test01app01
   disk_quota: 1024M
-  buildpack: https://github.com/cloudfoundry/ibm-websphere-liberty-buildpack.git#v2.8
+//  buildpack: https://github.com/cloudfoundry/ibm-websphere-liberty-buildpack.git#v2.8
+  buildpack: https://github.com/m21077319/test01ap01#v2.8
