@@ -13,7 +13,8 @@ public class Constants {
 
 	public static final String IMG_DIR_PATH = "images/";
 
-	public static final String IMG_URL = "https://TEST01APP.eu-gb.mybluemix.net/images/";
+//	public static final String IMG_URL = "https://TEST01APP.eu-gb.mybluemix.net/images/";
+	public static final String IMG_URL = "https://test01ap01.mybluemix.net/images/";
 	public static final String AUDIO_URL = "https://dflife.mybluemix.net/audio/";
 
 	/** Web Audio API URL */

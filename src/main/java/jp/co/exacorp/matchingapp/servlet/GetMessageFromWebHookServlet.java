@@ -28,7 +28,8 @@ import jp.co.exacorp.matchingapp.logic.api.LineReplyAPIContact;
 import jp.co.exacorp.matchingapp.util.Constants;
 import jp.co.exacorp.matchingapp.util.LINEConstants;
 
-@WebServlet("/TEST01APP")
+//@WebServlet("/TEST01APP")
+@WebServlet("/test01ap01")
 public class GetMessageFromWebHookServlet extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
