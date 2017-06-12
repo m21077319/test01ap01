@@ -103,7 +103,7 @@
                     <artifactId>maven-war-plugin</artifactId>
                     <configuration>
                         <failOnMissingWebXml>false</failOnMissingWebXml>
-                        <warName>TEST01APP</warName>
+                        <warName>test01app01</warName>
                     </configuration>
                 </plugin>
                 <plugin>
