@@ -1,8 +1,11 @@
 applications:
-- path: target/TEST01APP.war
+- path: target/test01ap01.war
   memory: 512M
   instances: 1
-  domain: eu-gb.mybluemix.net
-  name: TEST01APP
-  host: TEST01APP
+//  domain: eu-gb.mybluemix.net
+  domain: mybluemix.net
+//  name: TEST01APP
+//  host: TEST01APP
+  name: test01ap01
+  host: test01ap01
   disk_quota: 1024M
