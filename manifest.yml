@@ -6,7 +6,6 @@ applications:
   domain: mybluemix.net
 //  name: TEST01APP
 //  host: TEST01APP
-//  name: test01ap01
   name: test01ap01
   host: test01ap01
   disk_quota: 1024M
