@@ -6,7 +6,8 @@ applications:
   name: test01app02
   host: test01app02
   disk_quota: 1024M
-  buildpack: https://github.com/m21077319/test01ap01#v2.8
+  buildpack: https://github.com/cloudfoundry/docs-buildpacks/blob/master/using-buildpacks.html.md.erb
+//  buildpack: https://github.com/m21077319/test01ap01#v2.8
 //  buildpack: https://github.com/cloudfoundry/docs-cloudfoundry-concepts/blob/master/how-applications-are-staged.html.md.erb #v2.8
 //  buildpack: https://github.com/cloudfoundry/docs-buildpacks/blob/master/detection.html.md.erb #v2.8
 //  buildpack: https://github.com/dmikusa-pivotal/cf-php-apache-buildpack #v2.8
