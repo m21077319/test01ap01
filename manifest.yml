@@ -1,15 +1,11 @@
 applications:
-- path: target/test01app02.war
+- path: target/SalesActivitySupport.war
   memory: 512M
   instances: 1
   domain: mybluemix.net
-  name: test01app02
-  host: test01app02
+  name: SalesActivitySupport
+  host: SalesActivitySupport
   disk_quota: 1024M
-  buildpack: https://github.com/cloudfoundry/php-buildpack/releases#v4.3.34
-//  buildpack: https://github.com/m21077319/test01ap01#v2.8
-//  buildpack: https://github.com/cloudfoundry/docs-cloudfoundry-concepts/blob/master/how-applications-are-staged.html.md.erb #v2.8
-//  buildpack: https://github.com/cloudfoundry/docs-buildpacks/blob/master/detection.html.md.erb #v2.8
-//  buildpack: https://github.com/dmikusa-pivotal/cf-php-apache-buildpack #v2.8
-//  buildpack: https://github.com/cloudfoundry/ibm-websphere-liberty-buildpack.git#v2.8
-//  buildpack: https://github.com/m21077319/test01ap01#v2.8
+  env:
+    IBM_JVM_LICENSE: L-PMAA-A3Z8P2
+    IBM_LIBERTY_LICENSE: L-SWIS-A99U5C
