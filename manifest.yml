@@ -1,10 +1,10 @@
 applications:
-- path: target/test01app01.war
+- path: target/test01app02.war
   memory: 512M
   instances: 1
   domain: mybluemix.net
-  name: test01app01
-  host: test01app01
+  name: test01app02
+  host: test01app02
   disk_quota: 1024M
   buildpack: https://github.com/m21077319/test01ap01#v2.8
 //  buildpack: https://github.com/cloudfoundry/docs-cloudfoundry-concepts/blob/master/how-applications-are-staged.html.md.erb #v2.8
